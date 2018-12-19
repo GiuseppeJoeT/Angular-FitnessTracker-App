@@ -8,5 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
+// AppModule is the root module
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
