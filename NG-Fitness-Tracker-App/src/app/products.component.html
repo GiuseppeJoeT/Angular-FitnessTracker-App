@@ -1,5 +1,11 @@
 <h1>My Products</h1>
 
+<!-- Two way binding -->
+<input type="text" [(ngModel)]="productName">
+
+<!-- Event and Property binding -->
+<button (click)="productName = 'A Tree' " [disabled]="isDisabled">Change the product name</button>
+
 <!-- string interpolation -->
 <div>{{ productName }}</div>
 
