@@ -1,0 +1,15 @@
+button:hover {
+    background-color: darkred;
+}
+
+button:disabled {
+    background-color: gray;
+}
+
+button {
+    margin-bottom: 3%;
+    background-color: crimson;
+    color: white;
+    font-family: monospace;
+    font-size: x-large;
+}
