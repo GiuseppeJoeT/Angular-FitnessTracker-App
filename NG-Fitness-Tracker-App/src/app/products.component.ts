@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
     templateUrl: './products.component.html'
 })
 
-export class ProductsComponent {}
+export class ProductsComponent {
+    productName = 'A book';
+}
