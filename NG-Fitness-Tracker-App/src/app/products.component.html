@@ -1,12 +1,16 @@
 <h1>My Products</h1>
 
-<!-- Two way binding -->
-<input type="text" [(ngModel)]="productName">
+<!-- Two way binding and Structural Dicrectives -->
+<input *ngIf="!isDisabled" type="text" [(ngModel)]="productName">
 
 <!-- Event and Property binding -->
-<button (click)="productName = 'A Tree' " [disabled]="isDisabled">Change the product name</button>
+<!-- <button (click)="productName = 'A Tree' " [disabled]="isDisabled">Change the product name</button> -->
+
+<!-- Structural Dicrectives -->
+<button *ngIf="!isDisabled" (click)="onAddProduct()">Add Product</button>
+<div *ngFor="let product of products">{{ product }}</div>
 
 <!-- string interpolation -->
-<div>{{ productName }}</div>
+<!-- <div>{{ productName }}</div> -->
 
 <!-- <app-product></app-product> -->
