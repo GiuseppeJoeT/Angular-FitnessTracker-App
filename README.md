@@ -1,6 +1,4 @@
-# Angular-FitnessTracker-App
-
-The Fitness Tracker App is built with **Angular Material**, powered by **Firebase** (using Firestore) and Angularfire.
+# NGFitnessTrackerApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
